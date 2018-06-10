@@ -14,8 +14,6 @@ if __name__ == '__main__':
     emails = []
     for _ in range(n):
         emails.append(input())
-
-
-filtered_emails = filter_mail(emails)
-filtered_emails.sort()
-print(filtered_emails)
+    filtered_emails = filter_mail(emails)
+    filtered_emails.sort()
+    print(filtered_emails)
